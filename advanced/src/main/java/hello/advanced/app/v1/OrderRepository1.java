@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 public class OrderRepository1 {
 
     public void save(String itemId){
+
         if(itemId.equals("ex")){
             throw new IllegalStateException("예외 발생");
         }
