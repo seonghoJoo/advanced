@@ -1,20 +1,20 @@
 package hello.advanced.trace;
 
-import hello.advanced.trace.hellotrace.HelloTrace;
+import hello.advanced.trace.hellotrace.HelloTraceV1;
 import org.junit.jupiter.api.Test;
 
-public class HelloTraceV1Test {
+public class HelloTraceV1V1Test {
 
     @Test
     void bigin_end(){
-        HelloTrace trace = new HelloTrace();
+        HelloTraceV1 trace = new HelloTraceV1();
         TraceStatus status = trace.begin("hello");
         trace.end(status);
     }
 
     @Test
     void begin_exception(){
-        HelloTrace trace = new HelloTrace();
+        HelloTraceV1 trace = new HelloTraceV1();
         TraceStatus status = trace.begin("Hello");
         trace.exception(status, new IllegalStateException());
     }

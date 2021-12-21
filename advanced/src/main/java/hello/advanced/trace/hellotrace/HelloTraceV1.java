@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-public class HelloTrace {
+public class HelloTraceV1 {
 
     private static final String START_PREFIX = "-->";
     private static final String COMPLETE_PREFIX = "<--";
