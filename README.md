@@ -14,8 +14,8 @@ Spring 심화편
 
 
 ###예
-1.```private ThreadLocal<TraceId> traceIdHolder = new ThreadLocal<>();``` 
-2.```private ThreadLocal<String> traceIdHolder = new ThreadLocal<>();  ```
-3.```private ThreadLocal<Integer> traceIdHolder = new ThreadLocal<>();  ```
+1. ```private ThreadLocal<TraceId> traceIdHolder = new ThreadLocal<>();``` 
+2. ```private ThreadLocal<String> traceIdHolder = new ThreadLocal<>();  ```
+3. ```private ThreadLocal<Integer> traceIdHolder = new ThreadLocal<>();  ```
 
 
