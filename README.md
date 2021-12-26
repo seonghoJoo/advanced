@@ -13,7 +13,9 @@ Spring 심화편
 동시성 문제가 발생하는 곳은 같은 ```인스턴스의 필드(싱글톤에서 발생), static 공용 필드```에서 발생
 
 
-
-private ThreadLocal<TraceId> traceIdHolder = new ThreadLocal<>(); // traceId 동기화, 동시성 이슈가 발생
+###예
+```private ThreadLocal<TraceId> traceIdHolder = new ThreadLocal<>();``` 
+```private ThreadLocal<String> traceIdHolder = new ThreadLocal<>();  ```
+```private ThreadLocal<Integer> traceIdHolder = new ThreadLocal<>();  ```
 
 
