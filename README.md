@@ -19,6 +19,6 @@ Spring 심화편
 3. ```private ThreadLocal<Integer> traceIdHolder = new ThreadLocal<>();  ```
 
 ## 템플릿 메서드 패턴
-### 변하는 것과 변하지 않는것을 분
+### 변하는 것과 변하지 않는것을 분리(핵심기능 | 부가기능)
 
 
