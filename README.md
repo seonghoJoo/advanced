@@ -39,3 +39,8 @@ call() -> 상속받은 call()호출
 ### 상속이 아닌 위임을 통해 문제를 해결
 ```Context``` 템플릿 역할 ```Strategy``` 변하는 알고리즘 
 
+![image](https://user-images.githubusercontent.com/32606456/147520741-364ca582-8f15-4168-8039-933aa234eafa.png)
+
+###익명 내부 클래스
+
+
