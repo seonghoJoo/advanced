@@ -10,7 +10,7 @@ Spring 심화편
 3. v2 - TraceStatus 변수 인터페이스 선언 인스턴스 객체 traceId 동시성 문제 발생(FieldLocalLogTrace)
 4. v3 - ThreadLocal을 통해 동시성 문제 해결(ThreadLocalLogTrace)
 
-#ThreadLocal
+# ThreadLocal
 
 ## 동시성 문제
 지역변수에서는 발생하지 않는다. 지역변수는 쓰레드마다 각각 다른 메모리영역이 할당된다.
