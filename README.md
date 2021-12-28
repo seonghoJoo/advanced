@@ -8,8 +8,8 @@ Spring 심화편
 1. v0 - 로그 trace 적용 전
 2. v1 - TraceStatus 변수가 controller->service->repository로 이어지지 않음
 3. v2 - TraceStatus 변수 인터페이스 선언 인스턴스 객체 traceId 동시성 문제 발생(FieldLocalLogTrace)
-4. v3 - ThreadLocal을 통해 동시성 문제 해결(ThreadLocalLogTrace)
-5. v4 - 템플릿 메서드 적용
+4. v3 - ThreadLocal을 통해 동시성 문제 해결(ThreadLocalLogTrace) / 핵심기능과 부가기능이 섞여있음
+5. v4 - 템플릿 메서드 적용 (핵심기능과 템플릿을 호출하는 코드가 섞여있음)
 
 # ThreadLocal
 
