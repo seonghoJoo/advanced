@@ -61,5 +61,9 @@ call() -> 상속받은 call()호출
 ## 프록시 패턴
 프록시 객체가 중간에 있으면 ```접근제어``` 와 ```부가기능 추가```를 수행할 수 있다.
 
+![image](https://user-images.githubusercontent.com/32606456/154973801-298f7ded-d79b-409b-bbab-61a514cf7292.png)
+
+
+
 
 
